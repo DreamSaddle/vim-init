@@ -23,7 +23,8 @@ inoremap <c-a> <home>
 inoremap <c-e> <end>
 inoremap <c-d> <del>
 inoremap <c-_> <c-k>
-
+" INSERT 模式下, 输入 df 映射为 esc
+inoremap df <esc>
 
 "----------------------------------------------------------------------
 " 设置 CTRL+HJKL 移动光标（INSERT 模式偶尔需要移动的方便些）
